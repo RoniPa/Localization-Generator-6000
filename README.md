@@ -13,12 +13,6 @@ _Note: Doesn't support all formats of localization, only parses from templates!_
 Run with command ```locgen```
 
 ### Options:
-* __--help:__ Display help
-* __--p:__ Source path (e.g. "./src/")
-* __--o:__ Output file (e.g. "./localizations/en-US.json")
-* __--e:__ File encoding (e.g. "utf-8"). Defaults to utf-8.
-
-### Options:
 __-p, --path__
 Source path (e.g. "./src/")
 
