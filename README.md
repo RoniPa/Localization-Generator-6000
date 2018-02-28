@@ -1,5 +1,5 @@
 # Localization Generator 6000
-Simple python cli tool for generating (empty) localization json files for [Ngx-Translate](https://github.com/ngx-translate/core) from source code.
+Simple python tool for generating (empty) localization json files for [Ngx-Translate](https://github.com/ngx-translate/core) from source code.
 Uses RegExp match for finding translate pipe in templates and parses tags from them.
 
 _Note: Doesn't support all formats of translation, only parses from templates!_
