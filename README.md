@@ -10,7 +10,7 @@ _Note: Doesn't support all formats of translation, only parses from templates!_
 3. Run ```python setup.py install``` to install
 
 ## How to use
-Run cli with command ```locgen```
+Run with command ```locgen```
 
 ### Options:
 * __--help:__ Display help
