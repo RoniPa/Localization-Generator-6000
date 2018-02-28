@@ -21,7 +21,7 @@ def recurse_files(path, output, encoding, append):
     dict_map = {}
     ref_map = {}
     
-    # If file exists, read in as reference
+    # If file exists, read in for appending
     if (append and os.path.isfile(output)): 
         try:
             with open(output, 'r', encoding=encoding) as json_data:
