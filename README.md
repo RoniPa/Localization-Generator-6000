@@ -31,7 +31,7 @@ Show this message and exit.
 If source & output are not given with args, they're prompted for.
 
 ## TODO
-* Add directive support (e.g. '<div translate>HELLO</div>' or '<div [translate]="HELLO"></div>')
+* Add directive support (e.g. ```<div translate>HELLO</div>``` or ```<div [translate]="HELLO"></div>```)
 * Parse from _setTranslation_?
 * Better Exception handling
 * Configuration?
