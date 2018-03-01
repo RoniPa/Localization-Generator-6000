@@ -16,8 +16,8 @@ def recurse_files(path, output, encoding, append):
 
     if (output == None):
         output = click.prompt('Give output file: (e.g. "./localizations/en-US.json")', type=str)
-
-    pattern = '(\'|\")\s?\|\s?translate'
+    
+    pattern = '(\'|\")(\s+)?\|(\s+)?translate'
     dict_map = {}
     ref_map = {}
     
