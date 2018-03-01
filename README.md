@@ -2,7 +2,7 @@
 Simple python tool for generating localization json files for [Ngx-Translate](https://github.com/ngx-translate/core) from source code.
 Uses RegExp match for finding translate pipe in templates and parses tags from them.
 
-_Note: Doesn't support all formats of localization, only parses from templates!_
+_Note: Doesn't support all formats, only parses from pipe notation!_
 
 ## Installation
 1. Install [setuptools](https://pypi.python.org/pypi/setuptools)
@@ -30,3 +30,8 @@ Show this message and exit.
 
 If source & output are not given with args, they're prompted for.
 
+## TODO
+* Add directive support (e.g. '<div translate>HELLO</div>' or '<div [translate]="HELLO"></div>')
+* Parse from _setTranslation_?
+* Better Exception handling
+* Configuration?
