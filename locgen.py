@@ -4,17 +4,6 @@ import re
 import json
 import click
 
-def byteify(input):
-    if isinstance(input, dict):
-        return {byteify(key): byteify(value)
-                for key, value in input.items()}
-    elif isinstance(input, list):
-        return [byteify(element) for element in input]
-    elif isinstance(input, str):
-        return input.encode('utf-8')
-    else:
-        return input
-
 @click.command()
 @click.option('-p', '--path', help='Source path (e.g. "./src/")')
 @click.option('-o', '--output', help='Output file (e.g. "./localizations/en-US.json")')
